@@ -1,0 +1,10 @@
+language: csharp
+dist: trusty
+mono: none
+dotnet: 2.1
+
+install:
+  - dotnet restore dotnet
+script:
+  - dotnet build dotnet
+  - dotnet test dotnet/tests/ProjectEuler.Tests

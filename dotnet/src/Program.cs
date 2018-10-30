@@ -6,9 +6,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1000000 max chain is : " + Problem14.LongChainInNumber());
-            Console.Write(Problem1.SumOfDivision());
-
+           Console.WriteLine(Problem2.FibonacciEvenNumbersSum(0,1,0));
         }
     }
 }
