@@ -6,7 +6,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Problem20.FactorialDigitSum());
+            Console.WriteLine(Problem13.FirstTenDigit());
             Console.Read();
         }
     }
