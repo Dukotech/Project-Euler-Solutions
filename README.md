@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Dukotech/Project-Euler-Solutions.svg?branch=master)](https://travis-ci.org/Dukotech/Project-Euler-Solutions)
+
 # Project-Euler-Solutions
 Solving Project Euler problems in C#
 
