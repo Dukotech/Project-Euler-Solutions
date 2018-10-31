@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -22,12 +22,12 @@ namespace ProjectEuler
     /// </summary>
     public static class Problem14
     {
-
-        public static int LongChainInNumber()
+        public static long LongChainInNumber()
         {
-            int calculate = 0;
+            long calculate = 0;
             int chainLenght = 0;
             int tempLenght = 0;
+            long result=0;
             for (int i = 1; i < 1000000; i++)
             {
                 chainLenght = 1;
@@ -53,11 +53,11 @@ namespace ProjectEuler
                 if (chainLenght >= tempLenght)
                 {
                     tempLenght = chainLenght;
-
+                    result=i;
                 }
             }
 
-            return tempLenght;
+            return result;
         }
 
 
