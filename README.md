@@ -1,9 +1,15 @@
 [![Build Status](https://travis-ci.org/Dukotech/Project-Euler-Solutions.svg?branch=master)](https://travis-ci.org/Dukotech/Project-Euler-Solutions)
 
 # Project-Euler-Solutions
-Solving Project Euler problems in C#
+Solving Project Euler problems.
 
+### What is Project Euler?
+Project Euler (named after [Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler)) is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+
+You can find detailed information about project euler [here](https://projecteuler.net).
 ### Problems
+
+Problems with solutions are listed below. You can view all problems [here](https://projecteuler.net/archives) and recent submitted problems [here](https://projecteuler.net/recent).
 
 - [x] 1. Find the sum of all the multiples of 3 or 5 below 1000. ([Problem](https://projecteuler.net/problem=1), [Solution](../../tree/master/dotnet/src/Problem1.cs))
 - [x] 2. By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms. ([Problem](https://projecteuler.net/problem=2), [Solution](../../tree/master/dotnet/src/Problem2.cs))
