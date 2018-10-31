@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text;
+=======
+using System;
+>>>>>>> upstream/master
 
 namespace ProjectEuler
 {
     /*
+<<<<<<< HEAD
     * Question:Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
     */
 
@@ -138,3 +143,16 @@ namespace ProjectEuler
         }
     }
 }
+=======
+     * Question: Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+     */
+
+    public static class Problem13
+    {
+        public static int GetResult()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+>>>>>>> upstream/master
