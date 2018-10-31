@@ -96,10 +96,8 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem13_ShouldReturn_5537376230()
         {
-            Assert.Throws<NotImplementedException>(() => 
-            {
-                Problem13.GetResult();
-            });
+            Assert.Equal(Problem13.GetResult(), 5537376230.ToString());
+
         }
 
         [Fact]
