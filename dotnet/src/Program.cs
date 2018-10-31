@@ -6,12 +6,9 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-            Console.WriteLine(Problem13.FirstTenDigit());
+            Console.WriteLine(Problem13.GetResult());
             Console.Read();
-=======
            Console.WriteLine(Problem2.FibonacciEvenNumbersSum(0,1,0));
->>>>>>> upstream/master
         }
     }
 }
