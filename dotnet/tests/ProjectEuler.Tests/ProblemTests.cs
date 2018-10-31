@@ -103,10 +103,7 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem14_ShouldReturn_837799()
         {
-            Assert.Throws<NotImplementedException>(() => 
-            {
-                Problem14.GetResult();
-            });
+            Assert.Equal(Problem14.LongChainInNumber(), 837799);
         }
 
         [Fact]

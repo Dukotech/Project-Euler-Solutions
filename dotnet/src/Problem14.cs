@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace ProjectEuler
 {
@@ -18,11 +20,49 @@ namespace ProjectEuler
      * NOTE: Once the chain starts the terms are allowed to go above one million.
      */
 
+    /// <summary>
+    /// 1000000 başlayıp bu sayı içerisinde tek ise (n → 3n + 1)  çift ise (n → n/2) bu formül uygulanacak ve sayı 1 de bitmeli. bu sayılardan en uzun halka hangi sayıda olacak hadi bulalım :D 
+    /// </summary>
     public static class Problem14
     {
-        public static int GetResult()
+        public static long LongChainInNumber()
         {
-            throw new NotImplementedException();
+            long calculate = 0;
+            int chainLenght = 0;
+            int tempLenght = 0;
+            long result=0;
+            for (int i = 1; i < 1000000; i++)
+            {
+                chainLenght = 1;
+
+                calculate = i;
+                
+                //  calculate = 13  chainLenght=10;
+                while (calculate > 1)
+                {
+                    if (calculate % 2 != 0)
+                    {
+                        calculate = 3 * calculate + 1;
+                    }
+                    else
+                    {
+                        calculate = calculate / 2;
+                    }
+
+                    chainLenght++;
+                }
+
+                //max lenght in a temp
+                if (chainLenght >= tempLenght)
+                {
+                    tempLenght = chainLenght;
+                    result=i;
+                }
+            }
+
+            return result;
         }
+
+
     }
 }
