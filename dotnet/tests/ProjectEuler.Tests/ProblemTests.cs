@@ -9,27 +9,13 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem1_ShouldReturn_233168()
         {
-<<<<<<< HEAD
-            Assert.Equal(Problem4.LargestThreeDigitPalindrome(), 906609);
-        }
-
-        [Fact]
-        public void Problem8_ShouldReturn_23514624000()
-        {
-            Assert.Equal(Problem4.LargestThreeDigitPalindrome(), 906609);
-        }
-
-=======
             Assert.Equal(Problem1.SumOfDivision(), 233168);
         }
 
->>>>>>> upstream/master
         [Fact]
         public void Problem2_ReturnResult_4613732()
         {
             Assert.Equal(Problem2.FibonacciEvenNumbersSum(0, 1, 0), 4613732);
-<<<<<<< HEAD
-=======
         }
 
         [Fact]
@@ -45,7 +31,6 @@ namespace ProjectEuler.Tests
         public void Problem4_ShouldReturn_906609()
         {
             Assert.Equal(Problem4.LargestThreeDigitPalindrome(), 906609);
->>>>>>> upstream/master
         }
 
         [Fact]
@@ -150,26 +135,14 @@ namespace ProjectEuler.Tests
             });
         }
 
-<<<<<<< HEAD
-        [Fact]
-        public void Problem13_ShouldReturn_5537376230()
-        {
-            Assert.Equal(Problem13.FirstTenDigit(), "5537376230");
-        }
 
-=======
->>>>>>> upstream/master
         [Fact]
         public void Problem18_ShouldReturn_1074()
         {
-<<<<<<< HEAD
-            Assert.Equal(Problem9.Pythagorean(), 31875000);
-=======
             Assert.Throws<NotImplementedException>(() => 
             {
                 Problem18.GetResult();
             });
->>>>>>> upstream/master
         }
 
         [Fact]
