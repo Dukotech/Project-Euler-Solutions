@@ -21,10 +21,7 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem3_ShouldReturn_6857()
         {
-            Assert.Throws<NotImplementedException>(() => 
-            {
-                Problem3.GetResult();
-            });
+            Assert.Equal(Problem3.Problem3Answer(), 6857);
         }
 
         [Fact]
