@@ -13,7 +13,6 @@ namespace ProjectEuler
         {
             long lastNumber = 600851475143;
             int index = 2;
-            int answer = 1;
             while (true)
             {
                 if (lastNumber % index == 0) //find prime number with GCD(Greatest Common Divisor) method 
@@ -22,12 +21,10 @@ namespace ProjectEuler
                 }
                 if (lastNumber == 1)
                 {
-                    answer = index;
-                    break;
+                    return index;
                 }
                 index++;
             }
-            return answer;
         }
     }
 }

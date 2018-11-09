@@ -23,7 +23,7 @@ namespace ProjectEuler.Tests
         {
             Assert.Equal(Problem3.Problem3Answer(), 6857);
         }
-
+        
         [Fact]
         public void Problem4_ShouldReturn_906609()
         {
